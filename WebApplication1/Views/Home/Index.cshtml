@@ -1,0 +1,73 @@
+﻿@{
+    // title - The title of the page which appears in the browser window title. Aim for the title to be less than 70
+    //         characters. The site name appears at the end for better SEO.
+    ViewBag.Title = "Jordan Follett:Software Developer";
+    // Description - Used by search engines. Aim for more than 160 characters.
+    ViewBag.Description = "Site Descrp";
+    // Author - (Optional) Used by search engines. The author of the page.
+    ViewBag.Author = "Jordan Follett";
+
+}
+
+<header class="jumbotron">
+
+
+
+    <h1>@ViewBag.Title</h1>
+    <p class="lead">@ViewBag.Description</p>
+
+</header>
+<img src="~/Content/Images/DEX2.jpg" />
+
+
+
+<div class="row">
+
+    <article class="col-md-4" role="article">
+        <header>
+            <h2><span aria-hidden="true" class="fa fa-lock"></span> Blog</h2>
+        </header>
+        <p><a href="">TODO:Create Blog</a> Blog Link</p>
+
+    </article>
+    <article class="col-md-4" role="article">
+        <header>
+            <h2><span aria-hidden="true" class="fa fa-link"></span> LinkedIN</h2>
+        </header>
+        <p><a href="https://www.linkedin.com/profile/view?id=AAIAABQ4BiUBFXcH3bj_fTih8CDNAkg_ZuEIWmQ&trk=nav_responsive_tab_profile">My Linked In Profile</a> Connect with me on LinkedIn!.</p>
+    </article>
+    <article class="col-md-4" role="article">
+        <header>
+            <h2><span aria-hidden="true" class="fa fa-line-chart"></span> Links</h2>
+        </header>
+        <ul>
+            <li>
+                <a href="Google.com">content</a>
+            </li>
+
+        </ul>
+
+    </article>
+</div>
+
+<div class="row">
+    <article class="col-md-4" role="article">
+        <header>
+            <h2><span aria-hidden="true" class="fa fa-link"></span> Autofac</h2>
+        </header>
+        <p><a href="http://autofac.org/">Autofac</a> is an addictive <a href="http://martinfowler.com/articles/injection.html">inversion of control</a> container. The idea behind inversion of control is that, rather than tie the classes in your application together and let classes "new up" their dependencies, you switch it around so dependencies are instead passed in during class construction.</p>
+    </article>
+    <article class="col-md-4" role="article">
+        <header>
+            <h2><span aria-hidden="true" class="fa fa-wifi"></span> jQuery</h2>
+        </header>
+        <p><a href="http://jquery.com/">jQuery</a> is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.</p>
+    </article>
+    <article class="col-md-4" role="article">
+        <header>
+            <h2><span aria-hidden="true" class="fa fa-html5"></span> HTML5</h2>
+        </header>
+        <p><a href="http://en.wikipedia.org/wiki/HTML5">HTML5</a> is a core technology markup language of the Internet used for structuring and presenting content for the World Wide Web.</p>
+    </article>
+</div>
+
